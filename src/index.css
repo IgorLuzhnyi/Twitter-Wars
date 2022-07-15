@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  background-image: url("https://img.wallpapersafari.com/desktop/1024/576/42/83/9SNYZQ.jpg");
+}
+
+#root {
+  max-width: 760px;
+  margin: 0 auto;
+  background-color: rgb(247, 247, 247);
+  overflow: auto;
+}
+
+/* Post */
+.sw-post {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background-color: rgb(39, 8, 97);
+  margin: 16px auto 20px;
+  padding: 10px 15px;
+  max-width: 700px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.author-avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px #fff solid;
+  margin-right: 20px;
+}
+
+.sw-post__container {
+  width: 600px;
+}
+
+/* Author data */
+.sw-post__container__author-info {
+  display: flex;
+  margin-top: 5px;
+}
+
+#author_name {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px 0 0;
+}
+
+#author_nickname {
+  margin-right: 5px;
+}
+
+#date {
+  margin-left: 5px;
+}
+
+#author_nickname,
+#date {
+  font-size: 16px;
+}
+
+.sw-post__content {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+/* Content image */
+.content-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin: 10px auto 0;
+  border-radius: 20px;
+  border: 2px #fff solid;
+}
+
+/* Action icons */
+.sw-post--actions {
+  display: flex;
+  max-width: 100%;
+}
+
+.sw-action-icon {
+  margin: 10px 0px 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sw-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+#sw-icon__comment:hover {
+  color: rgb(67, 173, 235);
+}
+
+#sw-icon__share:hover {
+  color: rgb(46, 224, 70);
+}
+
+#sw-icon__like:hover {
+  color: rgb(228, 62, 62);
+}
+
+#sw-icon__send:hover {
+  color: rgb(195, 157, 238);
+}
