@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Twitter-Wars/static/css/main.3ca9f55e.css",
+    "main.js": "/Twitter-Wars/static/js/main.bff4468b.js",
+    "index.html": "/Twitter-Wars/index.html",
+    "main.3ca9f55e.css.map": "/Twitter-Wars/static/css/main.3ca9f55e.css.map",
+    "main.bff4468b.js.map": "/Twitter-Wars/static/js/main.bff4468b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca9f55e.css",
+    "static/js/main.bff4468b.js"
+  ]
+}
